@@ -1,12 +1,11 @@
--- This information tells other players more about the mod
-name = "Extended Sample Character"
-description = "A character template for Don't Starve Together. Skins compatible version."
-author = "Dragon Wolf Leo"
-version = "1.2.3" -- This is the version of the template. Change it to your own number.
+-- Basic information
+name = "Brave New Huerizons"
+description = "Adds the soulless miscreants of Nightskype to DST."
+author = "AlmostPete and StebPleb"
+version = "0.1.0"
 
--- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
-forumthread = "/files/file/950-extended-sample-character/"
-
+-- Never going to use a forum URL
+forumthread = ""
 
 -- This lets other players know if your mod is out of date, update it to match the current version in the game
 api_version = 10
@@ -15,8 +14,8 @@ api_version = 10
 dst_compatible = true
 
 -- Not compatible with Don't Starve
-dont_starve_compatible = false
-reign_of_giants_compatible = false
+dont_starve_compatible = true
+reign_of_giants_compatible = true
 
 -- Character mods need this set to true
 all_clients_require_mod = true 
@@ -26,7 +25,7 @@ icon = "modicon.tex"
 
 -- The mod's tags displayed on the server list
 server_filter_tags = {
-"character",
+	"character",
 }
 
 --configuration_options = {}
