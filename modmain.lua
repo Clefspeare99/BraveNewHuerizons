@@ -89,16 +89,16 @@ local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
 -- Set the Character descriptions
-GLOBAL.STRINGS.CHARACTER_TITLES.esctemplate = "The Sean"
-GLOBAL.STRINGS.CHARACTER_NAMES.esctemplate = "Sean" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.esctemplate = "*Probably not the worst human ever. Probably."
-GLOBAL.STRINGS.CHARACTER_QUOTES.esctemplate = "\"Hi.\""
+GLOBAL.STRINGS.CHARACTER_TITLES.sean = "The Sean"
+GLOBAL.STRINGS.CHARACTER_NAMES.sean = "Sean" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sean = "*Probably not the worst human ever. Probably."
+GLOBAL.STRINGS.CHARACTER_QUOTES.sean = "\"Hi.\""
 
 -- Load the custom character speech
-STRINGS.CHARACTERS.ESCTEMPLATE = require "speech_sean"
+STRINGS.CHARACTERS.SEAN = require "speech_sean"
 
 -- The characters names in-game
-STRINGS.NAMES.ESCTEMPLATE = "Sean"
+STRINGS.NAMES.SEAN = "Sean"
 
 -- Add the minimap icons
 AddMinimapAtlas("images/map_icons/sean.xml")
