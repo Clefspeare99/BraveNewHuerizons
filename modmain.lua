@@ -1,58 +1,229 @@
+-- Load character prefab files
 PrefabFiles = {
-	"esctemplate",
-	"esctemplate_none",
+	"corey", "corey_none",
+	"josiah", "josiah_none",
+	"matt", "matt_none",
+	"sam", "sam_none",
+	"sarah", "sarah_none",
+	"sean", "sean_none",
+	"steve", "steve_none"
 }
 
+-- Load the character asset files
 Assets = {
-    Asset( "IMAGE", "images/saveslot_portraits/esctemplate.tex" ),
-    Asset( "ATLAS", "images/saveslot_portraits/esctemplate.xml" ),
+	-- ========================= COREY =========================
+	Asset("IMAGE", "images/saveslot_portraits/corey.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/corey.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/corey.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/corey.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/corey_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/corey_silho.xml"),
+	Asset("IMAGE", "bigportraits/corey.tex"),
+	Asset("ATLAS", "bigportraits/corey.xml"),
+	Asset("IMAGE", "images/map_icons/corey.tex"),
+	Asset("ATLAS", "images/map_icons/corey.xml"),
+	Asset("IMAGE", "images/avatars/avatar_corey.tex"),
+	Asset("ATLAS", "images/avatars/avatar_corey.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_corey.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_corey.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_corey.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_corey.xml"),
+	Asset("IMAGE", "images/names_corey.tex"),
+	Asset("ATLAS", "images/names_corey.xml"),
 
-    Asset( "IMAGE", "images/selectscreen_portraits/esctemplate.tex" ),
-    Asset( "ATLAS", "images/selectscreen_portraits/esctemplate.xml" ),
-	
-    Asset( "IMAGE", "images/selectscreen_portraits/esctemplate_silho.tex" ),
-    Asset( "ATLAS", "images/selectscreen_portraits/esctemplate_silho.xml" ),
+	-- ========================= JOSIAH =========================
+	Asset("IMAGE", "images/saveslot_portraits/josiah.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/josiah.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/josiah.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/josiah.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/josiah_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/josiah_silho.xml"),
+	Asset("IMAGE", "bigportraits/josiah.tex"),
+	Asset("ATLAS", "bigportraits/josiah.xml"),
+	Asset("IMAGE", "images/map_icons/josiah.tex"),
+	Asset("ATLAS", "images/map_icons/josiah.xml"),
+	Asset("IMAGE", "images/avatars/avatar_josiah.tex"),
+	Asset("ATLAS", "images/avatars/avatar_josiah.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_josiah.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_josiah.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_josiah.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_josiah.xml"),
+	Asset("IMAGE", "images/names_josiah.tex"),
+	Asset("ATLAS", "images/names_josiah.xml"),
 
-    Asset( "IMAGE", "bigportraits/esctemplate.tex" ),
-    Asset( "ATLAS", "bigportraits/esctemplate.xml" ),
-	
-	Asset( "IMAGE", "images/map_icons/esctemplate.tex" ),
-	Asset( "ATLAS", "images/map_icons/esctemplate.xml" ),
-	
-	Asset( "IMAGE", "images/avatars/avatar_esctemplate.tex" ),
-    Asset( "ATLAS", "images/avatars/avatar_esctemplate.xml" ),
-	
-	Asset( "IMAGE", "images/avatars/avatar_ghost_esctemplate.tex" ),
-    Asset( "ATLAS", "images/avatars/avatar_ghost_esctemplate.xml" ),
-	
-	Asset( "IMAGE", "images/avatars/self_inspect_esctemplate.tex" ),
-    Asset( "ATLAS", "images/avatars/self_inspect_esctemplate.xml" ),
-	
-	Asset( "IMAGE", "images/names_esctemplate.tex" ),
-    Asset( "ATLAS", "images/names_esctemplate.xml" ),
-	
-    Asset( "IMAGE", "bigportraits/esctemplate_none.tex" ),
-    Asset( "ATLAS", "bigportraits/esctemplate_none.xml" ),
+	-- ========================= MATT =========================
+	Asset("IMAGE", "images/saveslot_portraits/matt.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/matt.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/matt.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/matt.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/matt_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/matt_silho.xml"),
+	Asset("IMAGE", "bigportraits/matt.tex"),
+	Asset("ATLAS", "bigportraits/matt.xml"),
+	Asset("IMAGE", "images/map_icons/matt.tex"),
+	Asset("ATLAS", "images/map_icons/matt.xml"),
+	Asset("IMAGE", "images/avatars/avatar_matt.tex"),
+	Asset("ATLAS", "images/avatars/avatar_matt.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_matt.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_matt.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_matt.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_matt.xml"),
+	Asset("IMAGE", "images/names_matt.tex"),
+	Asset("ATLAS", "images/names_matt.xml"),
 
+	-- ========================= SAM =========================
+	Asset("IMAGE", "images/saveslot_portraits/sam.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/sam.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/sam.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/sam.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/sam_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/sam_silho.xml"),
+	Asset("IMAGE", "bigportraits/sam.tex"),
+	Asset("ATLAS", "bigportraits/sam.xml"),
+	Asset("IMAGE", "images/map_icons/sam.tex"),
+	Asset("ATLAS", "images/map_icons/sam.xml"),
+	Asset("IMAGE", "images/avatars/avatar_sam.tex"),
+	Asset("ATLAS", "images/avatars/avatar_sam.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_sam.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_sam.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_sam.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_sam.xml"),
+	Asset("IMAGE", "images/names_sam.tex"),
+	Asset("ATLAS", "images/names_sam.xml"),
+
+	-- ========================= SARAH =========================
+	Asset("IMAGE", "images/saveslot_portraits/sarah.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/sarah.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/sarah.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/sarah.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/sarah_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/sarah_silho.xml"),
+	Asset("IMAGE", "bigportraits/sarah.tex"),
+	Asset("ATLAS", "bigportraits/sarah.xml"),
+	Asset("IMAGE", "images/map_icons/sarah.tex"),
+	Asset("ATLAS", "images/map_icons/sarah.xml"),
+	Asset("IMAGE", "images/avatars/avatar_sarah.tex"),
+	Asset("ATLAS", "images/avatars/avatar_sarah.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_sarah.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_sarah.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_sarah.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_sarah.xml"),
+	Asset("IMAGE", "images/names_sarah.tex"),
+	Asset("ATLAS", "images/names_sarah.xml"),
+
+	-- ========================= SEAN =========================
+	Asset("IMAGE", "images/saveslot_portraits/sean.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/sean.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/sean.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/sean.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/sean_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/sean_silho.xml"),
+	Asset("IMAGE", "bigportraits/sean.tex"),
+	Asset("ATLAS", "bigportraits/sean.xml"),
+	Asset("IMAGE", "images/map_icons/sean.tex"),
+	Asset("ATLAS", "images/map_icons/sean.xml"),
+	Asset("IMAGE", "images/avatars/avatar_sean.tex"),
+	Asset("ATLAS", "images/avatars/avatar_sean.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_sean.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_sean.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_sean.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_sean.xml"),
+	Asset("IMAGE", "images/names_sean.tex"),
+	Asset("ATLAS", "images/names_sean.xml"),
+
+	-- ========================= STEVE =========================
+	Asset("IMAGE", "images/saveslot_portraits/steve.tex"),
+	Asset("ATLAS", "images/saveslot_portraits/steve.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/steve.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/steve.xml"),
+	Asset("IMAGE", "images/selectscreen_portraits/steve_silho.tex"),
+	Asset("ATLAS", "images/selectscreen_portraits/steve_silho.xml"),
+	Asset("IMAGE", "bigportraits/steve.tex"),
+	Asset("ATLAS", "bigportraits/steve.xml"),
+	Asset("IMAGE", "images/map_icons/steve.tex"),
+	Asset("ATLAS", "images/map_icons/steve.xml"),
+	Asset("IMAGE", "images/avatars/avatar_steve.tex"),
+	Asset("ATLAS", "images/avatars/avatar_steve.xml"),
+	Asset("IMAGE", "images/avatars/avatar_ghost_steve.tex"),
+	Asset("ATLAS", "images/avatars/avatar_ghost_steve.xml"),
+	Asset("IMAGE", "images/avatars/self_inspect_steve.tex"),
+	Asset("ATLAS", "images/avatars/self_inspect_steve.xml"),
+	Asset("IMAGE", "images/names_steve.tex"),
+	Asset("ATLAS", "images/names_steve.xml")
 }
 
 local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
--- The character select screen lines
-STRINGS.CHARACTER_TITLES.esctemplate = "The Sample Character"
-STRINGS.CHARACTER_NAMES.esctemplate = "Esc"
-STRINGS.CHARACTER_DESCRIPTIONS.esctemplate = "*Perk 1\n*Perk 2\n*Perk 3"
-STRINGS.CHARACTER_QUOTES.esctemplate = "\"Quote\""
+-- Set the Character descriptions
+-- ========== COREY ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.corey = "The Corey"
+GLOBAL.STRINGS.CHARACTER_NAMES.corey = "Corey" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.corey = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_QUOTES.corey = "\"Corey quote.\""
+-- ========== JOSIAH ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.josiah = "The Josiah"
+GLOBAL.STRINGS.CHARACTER_NAMES.josiah = "Josiah" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.josiah = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_QUOTES.josiah = "\"Josiah quote.\""
+-- ========== MATT ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.matt = "The Matt"
+GLOBAL.STRINGS.CHARACTER_NAMES.matt = "Matt" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.matt = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_QUOTES.matt = "\"Matt quote.\""
+-- ========== SAM ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.sam = "The Sam"
+GLOBAL.STRINGS.CHARACTER_NAMES.sam = "Sam" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sam = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_QUOTES.sam = "\"Sam quote.\""
+-- ========== SARAH ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.sarah = "The Sarah"
+GLOBAL.STRINGS.CHARACTER_NAMES.sarah = "Sarah" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sarah = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_QUOTES.sarah = "\"Sarah quote.\""
+-- ========== SEAN ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.sean = "The Sean"
+GLOBAL.STRINGS.CHARACTER_NAMES.sean = "Sean" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sean = "*Probably not the worst human. Probably."
+GLOBAL.STRINGS.CHARACTER_QUOTES.sean = "\"They dont say it be like it is, but it do.\""
+-- ========== STEVE ==========
+GLOBAL.STRINGS.CHARACTER_TITLES.steve = "The Steve"
+GLOBAL.STRINGS.CHARACTER_NAMES.steve = "Steve" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.steve = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_QUOTES.steve = "\"Steve quote.\""
 
--- Custom speech strings
-STRINGS.CHARACTERS.ESCTEMPLATE = require "speech_esctemplate"
+-- Load the custom character speech
+STRINGS.CHARACTERS.COREY = require "speech_corey"
+STRINGS.CHARACTERS.JOSIAH = require "speech_josiah"
+STRINGS.CHARACTERS.MATT = require "speech_matt"
+STRINGS.CHARACTERS.SAM = require "speech_sam"
+STRINGS.CHARACTERS.SARAH = require "speech_sarah"
+STRINGS.CHARACTERS.SEAN = require "speech_sean"
+STRINGS.CHARACTERS.STEVE = require "speech_steve"
 
--- The character's name as appears in-game 
-STRINGS.NAMES.ESCTEMPLATE = "Esc"
+-- The characters names in-game
+STRINGS.NAMES.COREY = "Corey"
+STRINGS.NAMES.JOSIAH = "Josiah"
+STRINGS.NAMES.MATT = "Matt"
+STRINGS.NAMES.SAM = "Sam"
+STRINGS.NAMES.SARAH = "Sarah"
+STRINGS.NAMES.SEAN = "Sean"
+STRINGS.NAMES.STEVE = "Steve"
 
-AddMinimapAtlas("images/map_icons/esctemplate.xml")
+-- Add the minimap icons
+AddMinimapAtlas("images/map_icons/corey.xml")
+AddMinimapAtlas("images/map_icons/josiah.xml")
+AddMinimapAtlas("images/map_icons/matt.xml")
+AddMinimapAtlas("images/map_icons/sam.xml")
+AddMinimapAtlas("images/map_icons/sarah.xml")
+AddMinimapAtlas("images/map_icons/sean.xml")
+AddMinimapAtlas("images/map_icons/steve.xml")
 
--- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
-AddModCharacter("esctemplate", "FEMALE")
-
+-- Add the characters
+AddModCharacter("corey", "MALE")
+AddModCharacter("josiah", "MALE")
+AddModCharacter("matt", "MALE")
+AddModCharacter("sam", "MALE")
+AddModCharacter("sarah", "FEMALE")
+AddModCharacter("sean", "MALE")
+AddModCharacter("steve", "MALE")
