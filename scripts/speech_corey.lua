@@ -1,7 +1,4 @@
---[[
-	This is the default Wilson speech. Use this as a template for other speeches.
-]]--
-
+-- Sean's speech
 return {
 
 	ACTIONFAIL =
